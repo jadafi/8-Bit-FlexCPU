@@ -1,0 +1,30 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2750 1800 1150 900 
+U 5BD2B564
+F0 "8Bit1" 50
+F1 "8Bit.sch" 50
+F2 "BIT_0(LSB)" I R 3900 1900 50 
+F3 "1" I R 3900 2000 50 
+F4 "2" I R 3900 2100 50 
+F5 "3" I R 3900 2200 50 
+F6 "4" I R 3900 2300 50 
+F7 "5" I R 3900 2400 50 
+F8 "6" I R 3900 2500 50 
+F9 "7" I R 3900 2600 50 
+$EndSheet
+$EndSCHEMATC
