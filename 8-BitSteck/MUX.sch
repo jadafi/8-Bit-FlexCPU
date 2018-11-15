@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 35 62
+Sheet 35 64
 Title ""
 Date ""
 Rev "A"
@@ -128,20 +128,6 @@ Wire Wire Line
 	5850 1150 5850 1200
 Wire Wire Line
 	5850 4000 5850 3950
-$Sheet
-S 7500 3050 550  900 
-U 5BE1D68A
-F0 "sheet5BE1D680" 50
-F1 "8Bit.sch" 50
-F2 "BIT_0(LSB)" I L 7500 3150 50 
-F3 "1" I L 7500 3250 50 
-F4 "2" I L 7500 3350 50 
-F5 "3" I L 7500 3450 50 
-F6 "4" I L 7500 3550 50 
-F7 "5" I L 7500 3650 50 
-F8 "6" I L 7500 3750 50 
-F9 "7" I L 7500 3850 50 
-$EndSheet
 Wire Wire Line
 	6350 1500 7400 1500
 Wire Wire Line
@@ -174,60 +160,22 @@ Wire Wire Line
 	6350 5200 7400 5200
 Wire Wire Line
 	7400 5200 7400 3850
-$Sheet
-S 3350 2300 550  900 
-U 5BE1E9E4
-F0 "sheet5BE1E9DA" 50
-F1 "8Bit.sch" 50
-F2 "BIT_0(LSB)" I R 3900 2400 50 
-F3 "1" I R 3900 2500 50 
-F4 "2" I R 3900 2600 50 
-F5 "3" I R 3900 2700 50 
-F6 "4" I R 3900 2800 50 
-F7 "5" I R 3900 2900 50 
-F8 "6" I R 3900 3000 50 
-F9 "7" I R 3900 3100 50 
-$EndSheet
-$Sheet
-S 3350 3550 550  900 
-U 5BE1F024
-F0 "sheet5BE1F01A" 50
-F1 "8Bit.sch" 50
-F2 "BIT_0(LSB)" I R 3900 3650 50 
-F3 "1" I R 3900 3750 50 
-F4 "2" I R 3900 3850 50 
-F5 "3" I R 3900 3950 50 
-F6 "4" I R 3900 4050 50 
-F7 "5" I R 3900 4150 50 
-F8 "6" I R 3900 4250 50 
-F9 "7" I R 3900 4350 50 
-$EndSheet
 Wire Wire Line
 	5350 1500 4050 1500
 Wire Wire Line
 	4050 1500 4050 2400
 Wire Wire Line
-	4050 2400 3900 2400
-Wire Wire Line
 	5350 1800 4150 1800
 Wire Wire Line
 	4150 1800 4150 2500
-Wire Wire Line
-	4150 2500 3900 2500
 Wire Wire Line
 	5350 2100 4250 2100
 Wire Wire Line
 	4250 2100 4250 2600
 Wire Wire Line
-	4250 2600 3900 2600
-Wire Wire Line
 	5350 2400 4350 2400
 Wire Wire Line
 	4350 2400 4350 2700
-Wire Wire Line
-	4350 2700 3900 2700
-Wire Wire Line
-	3900 3650 4500 3650
 Wire Wire Line
 	4500 3650 4500 1600
 Wire Wire Line
@@ -237,27 +185,17 @@ Wire Wire Line
 Wire Wire Line
 	4600 1900 4600 3750
 Wire Wire Line
-	4600 3750 3900 3750
-Wire Wire Line
 	5350 2200 4700 2200
 Wire Wire Line
 	4700 2200 4700 3850
-Wire Wire Line
-	4700 3850 3900 3850
 Wire Wire Line
 	5350 2500 4800 2500
 Wire Wire Line
 	4800 2500 4800 3950
 Wire Wire Line
-	4800 3950 3900 3950
-Wire Wire Line
-	3900 3100 4050 3100
-Wire Wire Line
 	4050 3100 4050 5200
 Wire Wire Line
 	4050 5200 5350 5200
-Wire Wire Line
-	3900 3000 4150 3000
 Wire Wire Line
 	4150 3000 4150 4900
 Wire Wire Line
@@ -267,33 +205,21 @@ Wire Wire Line
 Wire Wire Line
 	4250 4600 5350 4600
 Wire Wire Line
-	3900 2900 4250 2900
-Wire Wire Line
-	3900 2800 4350 2800
-Wire Wire Line
 	4350 2800 4350 4300
 Wire Wire Line
 	4350 4300 5350 4300
-Wire Wire Line
-	3900 4050 4800 4050
 Wire Wire Line
 	4800 4050 4800 4400
 Wire Wire Line
 	4800 4400 5350 4400
 Wire Wire Line
-	3900 4150 4700 4150
-Wire Wire Line
 	4700 4150 4700 4700
 Wire Wire Line
 	4700 4700 5350 4700
 Wire Wire Line
-	3900 4250 4600 4250
-Wire Wire Line
 	4600 4250 4600 5000
 Wire Wire Line
 	4600 5000 5350 5000
-Wire Wire Line
-	3900 4350 4500 4350
 Wire Wire Line
 	4500 4350 4500 5300
 Wire Wire Line
@@ -305,28 +231,24 @@ Wire Wire Line
 Wire Wire Line
 	5150 5500 5350 5500
 $Sheet
-S 3400 5400 550  200 
+S 2800 5400 550  200 
 U 5BE36B31
 F0 "sheet5BE36B2E" 50
 F1 "1Bit.sch" 50
-F2 "Signal" I R 3950 5500 50 
+F2 "Signal" I R 3350 5500 50 
 $EndSheet
 $Sheet
-S 3400 5750 550  200 
+S 2800 5750 550  200 
 U 5BE38F09
 F0 "sheet5BE38F06" 50
 F1 "1Bit.sch" 50
-F2 "Signal" I R 3950 5850 50 
+F2 "Signal" I R 3350 5850 50 
 $EndSheet
-Wire Wire Line
-	3950 5500 5150 5500
 Connection ~ 5150 5500
 Wire Wire Line
 	5350 5600 5050 5600
 Wire Wire Line
 	4050 5600 4050 5850
-Wire Wire Line
-	4050 5850 3950 5850
 Connection ~ 5350 5600
 Wire Wire Line
 	5050 5600 5050 2800
@@ -336,34 +258,266 @@ Connection ~ 5050 5600
 Wire Wire Line
 	5050 5600 4050 5600
 Connection ~ 5350 2800
+Entry Wire Line
+	3550 2300 3650 2400
+Entry Wire Line
+	3550 2400 3650 2500
+Entry Wire Line
+	3550 2500 3650 2600
+Entry Wire Line
+	3550 2600 3650 2700
+Entry Wire Line
+	3550 2700 3650 2800
+Entry Wire Line
+	3550 2800 3650 2900
+Entry Wire Line
+	3550 2900 3650 3000
+Entry Wire Line
+	3550 3000 3650 3100
+Wire Bus Line
+	3550 2100 2950 2100
+Text HLabel 2950 2100 0    50   Input ~ 0
+A[0..7]
+Text Label 3150 2100 0    50   ~ 0
+a[0..7]
+Wire Wire Line
+	3650 2400 4050 2400
+Wire Wire Line
+	3650 2500 4150 2500
+Wire Wire Line
+	3650 2600 4250 2600
+Wire Wire Line
+	3650 2700 4350 2700
+Wire Wire Line
+	3650 3100 4050 3100
+Wire Wire Line
+	3650 3000 4150 3000
+Wire Wire Line
+	3650 2900 4250 2900
+Wire Wire Line
+	3650 2800 4350 2800
+Entry Wire Line
+	3550 3550 3650 3650
+Entry Wire Line
+	3550 3650 3650 3750
+Entry Wire Line
+	3550 3750 3650 3850
+Entry Wire Line
+	3550 3850 3650 3950
+Entry Wire Line
+	3550 3950 3650 4050
+Entry Wire Line
+	3550 4050 3650 4150
+Entry Wire Line
+	3550 4150 3650 4250
+Entry Wire Line
+	3550 4250 3650 4350
+Wire Bus Line
+	3550 3350 2950 3350
+Text HLabel 2950 3350 0    50   Input ~ 0
+B[0..7]
+Text Label 3150 3350 0    50   ~ 0
+b[0..7]
+Wire Wire Line
+	3650 3650 4500 3650
+Wire Wire Line
+	3650 3750 4600 3750
+Wire Wire Line
+	3650 3850 4700 3850
+Wire Wire Line
+	3650 3950 4800 3950
+Wire Wire Line
+	3650 4050 4800 4050
+Wire Wire Line
+	3650 4150 4700 4150
+Wire Wire Line
+	3650 4250 4600 4250
+Wire Wire Line
+	3650 4350 4500 4350
+Text Label 3850 2400 2    50   ~ 0
+a0
+Text Label 3850 2500 2    50   ~ 0
+a1
+Text Label 3850 2600 2    50   ~ 0
+a2
+Text Label 3850 2700 2    50   ~ 0
+a3
+Text Label 3850 2800 2    50   ~ 0
+a4
+Text Label 3850 2900 2    50   ~ 0
+a5
+Text Label 3850 3000 2    50   ~ 0
+a6
+Text Label 3850 3100 2    50   ~ 0
+a7
+Text Label 3850 3650 2    50   ~ 0
+b0
+Text Label 3850 3750 2    50   ~ 0
+b1
+Text Label 3850 3850 2    50   ~ 0
+b2
+Text Label 3850 3950 2    50   ~ 0
+b3
+Text Label 3850 4050 2    50   ~ 0
+b4
+Text Label 3850 4150 2    50   ~ 0
+b5
+Text Label 3850 4250 2    50   ~ 0
+b6
+Text Label 3850 4350 2    50   ~ 0
+b7
+Wire Bus Line
+	8550 3100 8250 3100
+Entry Wire Line
+	8150 3150 8250 3250
+Entry Wire Line
+	8150 3250 8250 3350
+Entry Wire Line
+	8150 3350 8250 3450
+Entry Wire Line
+	8150 3450 8250 3550
+Entry Wire Line
+	8150 3550 8250 3650
+Entry Wire Line
+	8150 3650 8250 3750
+Entry Wire Line
+	8150 3750 8250 3850
+Entry Wire Line
+	8150 3850 8250 3950
+Text Label 8500 3100 2    50   ~ 0
+out[0..7]
+Text Label 8000 3150 2    50   ~ 0
+out0
+Text Label 8000 3250 2    50   ~ 0
+out1
+Text Label 8000 3350 2    50   ~ 0
+out2
+Text Label 8000 3450 2    50   ~ 0
+out3
+Text Label 8000 3550 2    50   ~ 0
+out4
+Text Label 8000 3650 2    50   ~ 0
+out5
+Text Label 8000 3750 2    50   ~ 0
+out6
+Text Label 8000 3850 2    50   ~ 0
+out7
+Wire Wire Line
+	7400 3150 8150 3150
+Wire Wire Line
+	7300 3250 8150 3250
+Wire Wire Line
+	7200 3350 8150 3350
+Wire Wire Line
+	7100 3450 8150 3450
+Wire Wire Line
+	7100 3550 8150 3550
+Wire Wire Line
+	7200 3650 8150 3650
+Wire Wire Line
+	7300 3750 8150 3750
+Wire Wire Line
+	7400 3850 8150 3850
+Text HLabel 8550 3100 2    50   Output ~ 0
+OUT[0..7]
 $Sheet
-S 8450 3050 550  900 
-U 5BE47CF1
-F0 "sheet5BE47CE7" 50
-F1 "8Bit_LEDs.sch" 50
-F2 "BIT_0(LSB)" I L 8450 3150 50 
-F3 "1" I L 8450 3250 50 
-F4 "2" I L 8450 3350 50 
-F5 "3" I L 8450 3450 50 
-F6 "4" I L 8450 3550 50 
-F7 "5" I L 8450 3650 50 
-F8 "6" I L 8450 3750 50 
-F9 "7" I L 8450 3850 50 
+S 8550 3700 550  200 
+U 5BF6FAD0
+F0 "sheet5BF6FACC" 50
+F1 "8Bit.sch" 50
+F2 "BUS[0..7]" I L 8550 3800 50 
 $EndSheet
+$Sheet
+S 8550 3250 550  200 
+U 5BF6FAD3
+F0 "sheet5BF6FACD" 50
+F1 "8Bit_LEDs.sch" 50
+F2 "BUS[0..7]" I L 8550 3350 50 
+$EndSheet
+Wire Bus Line
+	8550 3350 8250 3350
+Connection ~ 8250 3350
+Wire Bus Line
+	8550 3800 8250 3800
+Connection ~ 8250 3800
+$Sheet
+S 2400 2750 550  200 
+U 5BF7F811
+F0 "sheet5BF7F80D" 50
+F1 "8Bit.sch" 50
+F2 "BUS[0..7]" I R 2950 2850 50 
+$EndSheet
+$Sheet
+S 2400 2300 550  200 
+U 5BF7F814
+F0 "sheet5BF7F80E" 50
+F1 "8Bit_LEDs.sch" 50
+F2 "BUS[0..7]" I R 2950 2400 50 
+$EndSheet
+Wire Bus Line
+	2950 2400 3550 2400
+Connection ~ 3550 2400
+Wire Bus Line
+	2950 2850 3550 2850
+Connection ~ 3550 2850
+$Sheet
+S 2400 4000 550  200 
+U 5BF87C6E
+F0 "sheet5BF87C6A" 50
+F1 "8Bit.sch" 50
+F2 "BUS[0..7]" I R 2950 4100 50 
+$EndSheet
+$Sheet
+S 2400 3550 550  200 
+U 5BF87C71
+F0 "sheet5BF87C6B" 50
+F1 "8Bit_LEDs.sch" 50
+F2 "BUS[0..7]" I R 2950 3650 50 
+$EndSheet
+Wire Bus Line
+	2950 3650 3550 3650
+Connection ~ 3550 3650
+Wire Bus Line
+	2950 4100 3550 4100
+Connection ~ 3550 4100
 Wire Wire Line
-	7400 3150 8450 3150
+	3350 5500 3750 5500
 Wire Wire Line
-	7300 3250 8450 3250
+	3350 5850 3750 5850
+Text HLabel 3350 5200 0    50   Input ~ 0
+S
+Text HLabel 3350 6150 0    50   Input ~ 0
+~E
 Wire Wire Line
-	7200 3350 8450 3350
+	3350 5200 3750 5200
 Wire Wire Line
-	7100 3450 8450 3450
+	3750 5200 3750 5500
+Connection ~ 3750 5500
 Wire Wire Line
-	7100 3550 8450 3550
+	3750 5500 5150 5500
 Wire Wire Line
-	7200 3650 8450 3650
+	3350 6150 3750 6150
 Wire Wire Line
-	7300 3750 8450 3750
+	3750 6150 3750 5850
+Wire Bus Line
+	8250 3100 8250 3350
+Wire Bus Line
+	8250 3800 8250 3950
+Wire Bus Line
+	3550 2100 3550 2400
+Wire Bus Line
+	3550 3350 3550 3650
+Wire Bus Line
+	3550 2850 3550 3000
+Wire Bus Line
+	3550 4100 3550 4250
+Wire Bus Line
+	8250 3350 8250 3800
+Wire Bus Line
+	3550 2400 3550 2850
+Wire Bus Line
+	3550 3650 3550 4100
+Connection ~ 3750 5850
 Wire Wire Line
-	7400 3850 8450 3850
+	3750 5850 4050 5850
 $EndSCHEMATC
