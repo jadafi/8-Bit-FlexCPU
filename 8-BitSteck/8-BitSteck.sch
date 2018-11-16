@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 64
+Sheet 1 66
 Title "8-Bit FlexCPU"
 Date "2018-11-14"
 Rev "A"
@@ -90,10 +90,20 @@ F5 "S" I L 3450 3050 50
 F6 "~E" I L 3450 3150 50 
 $EndSheet
 $Sheet
-S 5250 2650 550  250 
+S 3400 4050 900  1050
 U 5BE42934
 F0 "Sheet5BE42933" 50
 F1 "SM.sch" 50
+F2 "IN[0..7]" I L 3400 4150 50 
+F3 "OUT[0..7]" O R 4300 4150 50 
+F4 "bus_0" O R 4300 4300 50 
+F5 "bus_1" O R 4300 4400 50 
+F6 "bus_2" O R 4300 4500 50 
+F7 "bus_3" O R 4300 4600 50 
+F8 "bus_4" O R 4300 4700 50 
+F9 "bus_5" O R 4300 4800 50 
+F10 "bus_6" O R 4300 4900 50 
+F11 "bus_7" O R 4300 5000 50 
 $EndSheet
 $Sheet
 S 2800 1400 550  200 
@@ -103,63 +113,16 @@ F1 "8Bit_LEDs.sch" 50
 F2 "BUS[0..7]" I L 2800 1500 50 
 $EndSheet
 $Sheet
-S 7200 1900 550  300 
+S 7200 1900 1000 600 
 U 5BE65893
 F0 "Sheet5BE65892" 50
 F1 "alu.sch" 50
+F2 "A[0..7]" I L 7200 2000 50 
+F3 "B[0..7]" I L 7200 2100 50 
+F4 "S[0..3]" I L 7200 2250 50 
+F5 "C_in" I L 7200 2400 50 
+F6 "C_out" O R 8200 2400 50 
+F7 "A=B" O R 8200 2300 50 
+F8 "OUT[0..7]" O R 8200 2050 50 
 $EndSheet
-Wire Bus Line
-	1850 1500 1550 1500
-Entry Wire Line
-	1450 1550 1550 1650
-Entry Wire Line
-	1450 1650 1550 1750
-Entry Wire Line
-	1450 1750 1550 1850
-Entry Wire Line
-	1450 1850 1550 1950
-Entry Wire Line
-	1450 1950 1550 2050
-Entry Wire Line
-	1450 2050 1550 2150
-Entry Wire Line
-	1450 2150 1550 2250
-Entry Wire Line
-	1450 2250 1550 2350
-Text Label 1550 1500 0    50   ~ 0
-bus[0..7]
-Wire Wire Line
-	1450 1550 1000 1550
-Wire Wire Line
-	1450 1650 1000 1650
-Wire Wire Line
-	1450 1750 1000 1750
-Wire Wire Line
-	1450 1850 1000 1850
-Wire Wire Line
-	1450 1950 1000 1950
-Wire Wire Line
-	1450 2050 1000 2050
-Wire Wire Line
-	1450 2150 1000 2150
-Wire Wire Line
-	1450 2250 1000 2250
-Text Label 1100 1550 0    50   ~ 0
-bus0
-Text Label 1100 1650 0    50   ~ 0
-bus1
-Text Label 1100 1750 0    50   ~ 0
-bus2
-Text Label 1100 1850 0    50   ~ 0
-bus3
-Text Label 1100 1950 0    50   ~ 0
-bus4
-Text Label 1100 2050 0    50   ~ 0
-bus5
-Text Label 1100 2150 0    50   ~ 0
-bus6
-Text Label 1100 2250 0    50   ~ 0
-bus7
-Wire Bus Line
-	1550 1500 1550 2350
 $EndSCHEMATC

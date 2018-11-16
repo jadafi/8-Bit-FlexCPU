@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:8-BitSteck-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 44 64
+Sheet 1 12
 Title ""
 Date ""
 Rev "A"
@@ -316,6 +315,9 @@ Wire Wire Line
 	6700 6050 6600 6050
 Wire Wire Line
 	6600 6050 6600 6150
+Connection ~ 6600 6150
+Wire Wire Line
+	6600 6150 7100 6150
 Wire Bus Line
 	5000 2200 5000 2650
 Wire Bus Line
@@ -324,7 +326,4 @@ Wire Bus Line
 	8200 2450 8200 2900
 Wire Bus Line
 	8200 2900 8200 3300
-Connection ~ 6600 6150
-Wire Wire Line
-	6600 6150 7100 6150
 $EndSCHEMATC
